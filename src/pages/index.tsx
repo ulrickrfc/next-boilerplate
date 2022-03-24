@@ -1,7 +1,5 @@
-import Head from 'next/head'
+import Main from './components/Main'
 
-const bla = 'basdla'
-
-export default function Home({ title }) {
-  return <div> hey </div>
+export default function Home() {
+  return <Main />
 }
