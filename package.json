@@ -1,5 +1,5 @@
 {
-  "name": "react avancado boilerplate",
+  "name": "react-avancado-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "src/**/*": [
@@ -48,7 +49,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-storybook": "^0.5.7",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest": "^27.5.1",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^12.3.7",
